@@ -1,0 +1,41 @@
+body{
+    margin: 10px;
+}
+.app{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+
+.add{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    border: 0;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 15px;
+}
+
+.list{
+    padding-top: 20px;
+}
+
+.item{
+    width: 100%;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.remove{
+    border: 0;
+    background-color: brown;
+    color: white;
+    padding: 10px;
+}
